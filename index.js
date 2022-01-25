@@ -89,3 +89,8 @@ document.getElementById("btnnn4").onclick = function () {
 //     a="counter"
 //     document.getElementById("lead").innerHTML=a
 // }
+document.getElementById("lead1").onclick = function () {
+  document.getElementById("lead1").style.display = "none";
+  document.getElementById("lead").style.display = "none";
+  document.getElementById("hidden_clic").style.display = "block";
+};
